@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.6.23\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.6.23\build\SpecFlow.Tools.MsBuild.Generation.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit\3.11.0\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.11.0\build\NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)specflow.nunit\3.6.23\build\SpecFlow.NUnit.props" Condition="Exists('$(NuGetPackageRoot)specflow.nunit\3.6.23\build\SpecFlow.NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter\3.10.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\3.10.0\build\net35\NUnit3TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\bodi\1.4.1</PkgBoDi>
+    <PkgNUnit_Extension_VSProjectLoader Condition=" '$(PkgNUnit_Extension_VSProjectLoader)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.extension.vsprojectloader\3.8.0</PkgNUnit_Extension_VSProjectLoader>
+    <PkgNUnit_Extension_TeamCityEventListener Condition=" '$(PkgNUnit_Extension_TeamCityEventListener)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.extension.teamcityeventlistener\1.0.3</PkgNUnit_Extension_TeamCityEventListener>
+    <PkgNUnit_Extension_NUnitV2ResultWriter Condition=" '$(PkgNUnit_Extension_NUnitV2ResultWriter)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.extension.nunitv2resultwriter\3.5.0</PkgNUnit_Extension_NUnitV2ResultWriter>
+    <PkgNUnit_Extension_NUnitV2Driver Condition=" '$(PkgNUnit_Extension_NUnitV2Driver)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.extension.nunitv2driver\3.6.0</PkgNUnit_Extension_NUnitV2Driver>
+    <PkgNUnit_Extension_NUnitProjectLoader Condition=" '$(PkgNUnit_Extension_NUnitProjectLoader)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.extension.nunitprojectloader\3.5.0</PkgNUnit_Extension_NUnitProjectLoader>
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\nunit.consolerunner\3.9.0</PkgNUnit_ConsoleRunner>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\a.kumar.govindaraju\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>

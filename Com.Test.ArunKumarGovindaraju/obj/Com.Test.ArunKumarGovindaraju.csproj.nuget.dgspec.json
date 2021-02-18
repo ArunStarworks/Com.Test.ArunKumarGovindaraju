@@ -1,0 +1,653 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\a.kumar.govindaraju\\source\\repos\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\a.kumar.govindaraju\\source\\repos\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.kumar.govindaraju\\source\\repos\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju.csproj",
+        "projectName": "Com.Test.ArunKumarGovindaraju",
+        "projectPath": "C:\\Users\\a.kumar.govindaraju\\source\\repos\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju.csproj",
+        "packagesPath": "C:\\Users\\a.kumar.govindaraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.kumar.govindaraju\\source\\repos\\Com.Test.ArunKumarGovindaraju\\Com.Test.ArunKumarGovindaraju\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\a.kumar.govindaraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "BoDi": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Crc32C.NET": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Cucumber.Messages": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "DnsClient": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Dynamitey": {
+              "target": "Package",
+              "version": "[2.0.9.136, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Gherkin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Connections.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HostFiltering": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Server.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Html.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpOverrides": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Language": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Routing.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.IIS": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.IISIntegration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Https": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileSystemGlobbing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.EventSource": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Net.Http.Headers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "MongoDB.Libmongocrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit.Extension.NUnitProjectLoader": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit.Extension.NUnitV2Driver": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "NUnit.Extension.NUnitV2ResultWriter": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit.Extension.TeamCityEventListener": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "NUnit.Extension.VSProjectLoader": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RazorEngine.NetCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            },
+            "SharpCompress": {
+              "target": "Package",
+              "version": "[0.23.0, )"
+            },
+            "Snappy.NET": {
+              "target": "Package",
+              "version": "[1.1.1.8, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.NUnit.Runners": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "System.AppContext": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Collections.Concurrent": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Console": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.FileVersionInfo": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.StackTrace": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Dynamic.Runtime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.Compression": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.FileSystem.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.Pipelines": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.InteropServices.RuntimeInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Numerics": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.AccessControl": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Security.Cryptography.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Cryptography.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Security.Principal.Windows": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Threading.Tasks.Parallel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Thread": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Xml.ReaderWriter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XPath": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XPath.XDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Utf8Json": {
+              "target": "Package",
+              "version": "[1.3.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
