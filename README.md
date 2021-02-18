@@ -8,3 +8,6 @@ Select the feature files and run
 Once execution will be complete 
 A html report will be generated in the Report folder 
 
+Report Screenshot
+https://github.com/ArunStarworks/Com.Test.ArunKumarGovindaraju/issues/1
+
