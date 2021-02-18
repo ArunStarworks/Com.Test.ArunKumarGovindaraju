@@ -17,7 +17,7 @@ namespace Com.Test.ArunKumarGovindaraju.ReusableMethods
 
         public static void navigatetoURL(string URL)
         {
-            driver.Url = "https://www.eat24.com/";
+            driver.Url = URL;
         }
 
         public static void clickMethod(IWebElement element)
